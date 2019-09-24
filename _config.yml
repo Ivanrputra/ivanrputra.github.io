@@ -1,4 +1,4 @@
-title: Hello, world! I'm David Freeman
+title: Hello, I'm Ivan R. Putra
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -12,11 +12,11 @@ site-twitter: #if your site has a twitter account, enter it here
 author: Ivan R. Putra # add your name
 author-img: david-freeman.jpgg # add your photo
 about-author: I am a web developer focusing on back-end development using Django or Laravel. Always hungry to keep learning. # add description
-social-twitter: # add your Twitter handle
-social-facebook: # add your Facebook handle
+social-twitter:  # add your Twitter handle
+social-facebook:  # add your Facebook handle
 social-github: Ivanrputra # add your Github handle
-social-linkedin: ivanrputra #add your Linkedin handle
-social-email: ivanrputra@gmail.com# add your Email address
+social-linkedin: ivanrputra # add your Linkedin handle
+social-email: ivanrputra@gmail.com # add your Email address
 
 # Disqus
 discus-identifier: mr-brown # add your discus identifier
