@@ -28,23 +28,42 @@ In my development i'm using ruby version :
 Install bunler and jekyll using gem :
 > gem install jekyll bundler
 
+### Step 2 : Create Jekyll Blog on your local Machine
 
-### Step 2 : Create github page repository
+There is many option to create new jekyll blog on your local machine.
+
+#1. Create new jekyll blog with default template using command :
+
+> jekyll new yournewblogname
+
+#2. You can either download or clone the template from [(jekyll template)](https://jekyllthemes.io/).
+
+Then run your jekyll on your local machine to make sure everything work.
+
+> jekyll serve
+
+And you will get url to your jekyll (usually on localhost:4000) like this :
+
+![Github Page Setting]({{site.baseurl}}/assets/img/github_page/jekyll-serve.jpg)
+
+Now check jekyll on your browser.
+
+### Step 3 : Create github page repository
 
 To create github page just create new repository and fill repository name using this format "yoursitename.github.io" and click Create repository.
 
 ![Create Github Page Repository]({{site.baseurl}}/assets/img/github_page/create-repo.jpg)
 
-Create new repository on your local machine :
+Go to your jekyll root folder and init new repository on your local machine and push your jekyll :
 
-> * echo "# yoursitename.github.io" >> README.md
-* git init
-* git add README.md
+> * git init
+* git add .
 * git commit -m "first commit"
 * git remote add origin https://github.com/username/yoursitename.github.io.git
-* git push -u origin master
-{: color=black}
+* git push origin master
 
 Then open setting and scrool down to "Github Pages" section. Choose the source to "master branch".
 
 ![Github Page Setting]({{site.baseurl}}/assets/img/github_page/github-pages-setting.jpg)
+
+And now open "yoursitename.github.io" and your blog is ready to go.
