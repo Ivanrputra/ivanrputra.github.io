@@ -20,13 +20,14 @@ Assume you already have github account, if not sign up now in [here](http://gith
 * Ruby Installer for Windows [(source)](https://rubyinstaller.org/downloads/). # get installer with DEVKIT
 
 Now check the version of your ruby app using (the version must be higher than 2.1):
-> ruby -v
+
+{% highlight ruby %}ruby -v {% endhighlight %}
 
 In my development i'm using ruby version :
-> ruby 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32]
+{% highlight ruby %}ruby 2.6.4p104 (2019-08-28 revision 67798) [x64-mingw32] {% endhighlight %}
 
 Install bunler and jekyll using gem :
-> gem install jekyll bundler
+{% highlight ruby %}gem install jekyll bundler {% endhighlight %}
 
 ### Step 2 : Create Jekyll Blog on your local Machine
 
@@ -34,13 +35,13 @@ There is many option to create new jekyll blog on your local machine.
 
 #1. Create new jekyll blog with default template using command :
 
-> jekyll new yournewblogname
+{% highlight ruby %}jekyll new yournewblogname {% endhighlight %}
 
 #2. You can either download or clone the template from [(jekyll template)](https://jekyllthemes.io/).
 
 Then run your jekyll on your local machine to make sure everything work.
 
-> jekyll serve
+{% highlight ruby %}jekyll serve {% endhighlight %}
 
 And you will get url to your jekyll (usually on localhost:4000) like this :
 
@@ -56,11 +57,13 @@ To create github page just create new repository and fill repository name using 
 
 Go to your jekyll root folder and init new repository on your local machine and push your jekyll :
 
-> * git init
+{% highlight ruby %}
+* git init
 * git add .
 * git commit -m "first commit"
 * git remote add origin https://github.com/username/yoursitename.github.io.git
 * git push origin master
+{% endhighlight %}
 
 Then open setting and scrool down to "Github Pages" section. Choose the source to "master branch".
 
