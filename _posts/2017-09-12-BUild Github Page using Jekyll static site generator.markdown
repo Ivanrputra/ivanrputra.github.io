@@ -49,6 +49,15 @@ And you will get url to your jekyll (usually on localhost:4000) like this :
 
 Now check jekyll on your browser.
 
+Let’s me explain a litte about jekyll structure and how tou can edit them.
+
+* _posts: This is the folder that has all your blog posts. Each of these posts should be a markdown file and should be included within this folder for it to be listed in your blog.
+* _site: This files in this folder are responsible for compiling your blog. You basically have different blog posts, images, pages lying in different folders. The files in _sites folder bring them together and publish it as a website.
+* _config.yml: This file contains your site’s variables such as title, your usernames, urls etc.
+* about.md: This is just a markdown file that contains data to be published in your about section
+* gemfile: gemfile contains all the dependencies for this site. Meaning you are using jekyll. And within jekyll, you are using it’s default theme called ‘Minima’. The gem file specifies such info.
+* index.md: contains info that is visible in the home page of your blog.
+
 ### Step 3 : Create github page repository
 
 To create github page just create new repository and fill repository name using this format "yoursitename.github.io" and click Create repository.
