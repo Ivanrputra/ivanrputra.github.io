@@ -58,6 +58,11 @@ Let’s me explain a litte about jekyll structure and how tou can edit them.
 * gemfile: gemfile contains all the dependencies for this site. Meaning you are using jekyll. And within jekyll, you are using it’s default theme called ‘Minima’. The gem file specifies such info.
 * index.md: contains info that is visible in the home page of your blog.
 
+Note:
+Each time you edit content and want to see how it looks, type “jekyll serve” and see the results on the local host
+When your blog is being served, you may not be able to type on your terminal. To exit from current running process and type another command in your terminal, you will have to type Ctrl+C
+So that’s about it in terms of editing the content. Feel free to play around and add more content as you wish.
+
 ### Step 3 : Create github page repository
 
 To create github page just create new repository and fill repository name using this format "yoursitename.github.io" and click Create repository.
